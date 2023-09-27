@@ -1,0 +1,63 @@
+# Создано https://www.toptal.com/developers/gitignore/api/windows,matlab
+# Редактировать в https://www.toptal.com/developers/gitignore?templates=windows,matlab
+
+### MATLAB ###
+# Расширение автосохранения Windows по умолчанию 
+*.asv
+
+# Расширение автосохранения OSX / *nix по умолчанию 
+*.m ~
+
+# Скомпилированные двоичные файлы MEX (для всех платформ)
+*.mex*
+
+# Упакованные файлы приложений и toolbox 
+*.mlappinstall 
+*.mltbx
+
+# Сгенерированные папки поиска помощи
+поиск помощи*/
+
+# Папки генерации кода Simulink
+slprj/
+sccprj/
+
+# Папки для генерации кода Matlab 
+codegen/
+
+# Расширение автосохранения Simulink 
+*.автосохранение
+
+# Файлы кэша Simulink 
+*.slxc
+
+# Информация о сеансе Octave 
+octave-рабочее пространство
+
+### Windows ###
+# Файлы кэша миниатюр Windows
+Thumbs.db
+Thumbs.db: шифруемый 
+ehthumbs.db 
+ehthumbs_vista.db
+
+# Файл дампа 
+*.stackdump
+
+# Файл конфигурации папки
+[Dd]esktop.ini
+
+# Корзина, используемая в общих файловых ресурсах
+$RECYCLE.BIN/
+
+# Файлы установщика Windows 
+*.cab
+*.msi
+*.msix 
+*.msm
+*.msp
+
+# Ярлыки Windows 
+*.lnk
+
+# Конец https://www.toptal.com/developers/gitignore/api/windows ,matlab
